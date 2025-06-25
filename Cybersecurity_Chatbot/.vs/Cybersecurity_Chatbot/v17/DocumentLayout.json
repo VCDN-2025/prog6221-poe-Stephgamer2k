@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38D70391-14AE-458F-9099-8E4EC6ADBB72}|Cybersecurity_Chatbot.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\cybersecurity_chatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38D70391-14AE-458F-9099-8E4EC6ADBB72}|Cybersecurity_Chatbot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D70391-14AE-458F-9099-8E4EC6ADBB72}|Cybersecurity_Chatbot.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\cybersecurity_chatbot\\logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38D70391-14AE-458F-9099-8E4EC6ADBB72}|Cybersecurity_Chatbot.csproj|solutionrelative:logo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38D70391-14AE-458F-9099-8E4EC6ADBB72}|Cybersecurity_Chatbot.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\cybersecurity_chatbot\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38D70391-14AE-458F-9099-8E4EC6ADBB72}|Cybersecurity_Chatbot.csproj|solutionrelative:response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logo.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\Logo.cs",
+              "RelativeDocumentMoniker": "Logo.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\Logo.cs",
+              "RelativeToolTip": "Logo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T19:56:07.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\Response.cs",
+              "RelativeDocumentMoniker": "Response.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\Response.cs",
+              "RelativeToolTip": "Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:06:18.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:41:00.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

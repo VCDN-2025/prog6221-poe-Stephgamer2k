@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XTp0ZtWeK8c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\Cybersecurity_Chatbot\\Cybersecurity_Chatbot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\figgle\\0.5.1\\figgle.0.5.1.nupkg.sha512",
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\system.windows.extensions\\9.0.3\\system.windows.extensions.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
