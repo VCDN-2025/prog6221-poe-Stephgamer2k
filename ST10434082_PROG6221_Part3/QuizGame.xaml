@@ -1,0 +1,29 @@
+﻿<Window x:Class="ST10434082_PROG6221_Part3.QuizGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST10434082_PROG6221_Part3"
+        mc:Ignorable="d"
+        Title="QuizGame" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            
+            <RowDefinition Height="Auto"/>
+            
+            <RowDefinition Height="Auto"/>
+            
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="questionText" TextWrapping="Wrap" FontSize="16" Grid.Row="0" Margin="0,10,0,10"/>
+
+        <TextBox x:Name="answerInput" Height="30" Grid.Row="1" Margin="0,0,0,10" FontSize="14"/>
+
+        <Button x:Name="SubmitButton" Content="Submit Answer" Click="SubmitAnswer_Click" Width="150" Height="35" Grid.Row="2" Margin="0,0,0,10" HorizontalAlignment="Center" FontWeight="Bold"/>
+
+        <ListBox x:Name="quizHistory" Grid.Row="3" Margin="0" FontSize="14"/>
+    </Grid>
+</Window>

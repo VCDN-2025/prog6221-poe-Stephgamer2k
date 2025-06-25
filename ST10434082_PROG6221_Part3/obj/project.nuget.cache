@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8iVeYiT60K8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\ST10434082_PROG6221_Part3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\figgle\\0.6.3\\figgle.0.6.3.nupkg.sha512",
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\figgle.fonts\\0.6.3\\figgle.fonts.0.6.3.nupkg.sha512",
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\figgle.generator\\0.6.3\\figgle.generator.0.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

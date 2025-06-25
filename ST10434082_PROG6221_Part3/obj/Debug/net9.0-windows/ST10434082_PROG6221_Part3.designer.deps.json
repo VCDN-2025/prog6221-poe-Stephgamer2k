@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Figgle/0.6.3": {
+        "runtime": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "assemblyVersion": "0.6.3.0",
+            "fileVersion": "0.6.3.0"
+          }
+        }
+      },
+      "Figgle.Fonts/0.6.3": {
+        "dependencies": {
+          "Figgle": "0.6.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Figgle.Fonts.dll": {
+            "assemblyVersion": "0.6.3.0",
+            "fileVersion": "0.6.3.0"
+          }
+        }
+      },
+      "Figgle.Generator/0.6.3": {}
+    }
+  },
+  "libraries": {
+    "Figgle/0.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8teoQGSerbJjcPRfycikn1LdPa6UHgGsOIu7gxpkCodCoXF6DQF/7lxHvE6IMNyLIauo19aL4Nb91LIU4+CfhQ==",
+      "path": "figgle/0.6.3",
+      "hashPath": "figgle.0.6.3.nupkg.sha512"
+    },
+    "Figgle.Fonts/0.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+fQwcDwlu/++pQBkLJO7jQvNh3UaFBlWbJDamLzVeviz5lVTrnWtYeXM/IwsE75/TKUgU8sayaxoeRg9ExKtjQ==",
+      "path": "figgle.fonts/0.6.3",
+      "hashPath": "figgle.fonts.0.6.3.nupkg.sha512"
+    },
+    "Figgle.Generator/0.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aaz6SiVFqVmBl/6Jr3JNbGvJZ96AVCIPHAkXbUaMIHDMxkQTJW9qqkCZvTfMljm1qg67cmnSuitCi2d5Wd4p5g==",
+      "path": "figgle.generator/0.6.3",
+      "hashPath": "figgle.generator.0.6.3.nupkg.sha512"
+    }
+  }
+}

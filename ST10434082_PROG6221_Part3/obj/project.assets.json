@@ -1,0 +1,182 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "Figgle/0.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Figgle.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Figgle.Fonts/0.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Figgle": "0.6.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Figgle.Fonts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Figgle.Fonts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Figgle.Generator/0.6.3": {
+        "type": "package",
+        "build": {
+          "build/Figgle.Generator.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Figgle/0.6.3": {
+      "sha512": "8teoQGSerbJjcPRfycikn1LdPa6UHgGsOIu7gxpkCodCoXF6DQF/7lxHvE6IMNyLIauo19aL4Nb91LIU4+CfhQ==",
+      "type": "package",
+      "path": "figgle/0.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "figgle.0.6.3.nupkg.sha512",
+        "figgle.nuspec",
+        "lib/netstandard2.0/Figgle.dll",
+        "lib/netstandard2.0/Figgle.xml",
+        "logo-square-256px.png"
+      ]
+    },
+    "Figgle.Fonts/0.6.3": {
+      "sha512": "+fQwcDwlu/++pQBkLJO7jQvNh3UaFBlWbJDamLzVeviz5lVTrnWtYeXM/IwsE75/TKUgU8sayaxoeRg9ExKtjQ==",
+      "type": "package",
+      "path": "figgle.fonts/0.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "figgle.fonts.0.6.3.nupkg.sha512",
+        "figgle.fonts.nuspec",
+        "lib/netstandard2.0/Figgle.Fonts.dll",
+        "lib/netstandard2.0/Figgle.Fonts.xml",
+        "logo-square-256px.png"
+      ]
+    },
+    "Figgle.Generator/0.6.3": {
+      "sha512": "aaz6SiVFqVmBl/6Jr3JNbGvJZ96AVCIPHAkXbUaMIHDMxkQTJW9qqkCZvTfMljm1qg67cmnSuitCi2d5Wd4p5g==",
+      "type": "package",
+      "path": "figgle.generator/0.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/Figgle.Fonts.dll",
+        "analyzers/dotnet/cs/Figgle.Fonts.pdb",
+        "analyzers/dotnet/cs/Figgle.Generator.dll",
+        "analyzers/dotnet/cs/Figgle.Generator.pdb",
+        "analyzers/dotnet/cs/Figgle.dll",
+        "analyzers/dotnet/cs/Figgle.pdb",
+        "build/Figgle.Generator.props",
+        "figgle.generator.0.6.3.nupkg.sha512",
+        "figgle.generator.nuspec",
+        "logo-square-256px.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "Figgle.Fonts >= 0.6.3",
+      "Figgle.Generator >= 0.6.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\ST10434082_PROG6221_Part3.csproj",
+      "projectName": "ST10434082_PROG6221_Part3",
+      "projectPath": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\ST10434082_PROG6221_Part3.csproj",
+      "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "Figgle.Fonts": {
+            "target": "Package",
+            "version": "[0.6.3, )"
+          },
+          "Figgle.Generator": {
+            "target": "Package",
+            "version": "[0.6.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

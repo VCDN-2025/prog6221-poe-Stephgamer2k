@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\quizgame.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:quizgame.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\chatbot.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:chatbot.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\quizgame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:quizgame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chatbot.xaml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\Chatbot.xaml",
+              "RelativeDocumentMoniker": "Chatbot.xaml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\Chatbot.xaml",
+              "RelativeToolTip": "Chatbot.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-24T20:32:46.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizGame.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\QuizGame.xaml.cs",
+              "RelativeDocumentMoniker": "QuizGame.xaml.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\QuizGame.xaml.cs",
+              "RelativeToolTip": "QuizGame.xaml.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAswGoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T18:32:52.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizGame.xaml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\QuizGame.xaml",
+              "RelativeDocumentMoniker": "QuizGame.xaml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\QuizGame.xaml",
+              "RelativeToolTip": "QuizGame.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-24T18:31:47.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
