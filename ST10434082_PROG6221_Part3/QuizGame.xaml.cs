@@ -18,6 +18,7 @@ namespace ST10434082_PROG6221_Part3
     /// <summary>
     /// Interaction logic for QuizGame.xaml
     /// </summary>
+    /// Added Quiz game
     public partial class QuizGame : Window
     {
         
