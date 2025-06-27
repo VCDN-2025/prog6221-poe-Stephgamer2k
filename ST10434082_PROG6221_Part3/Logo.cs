@@ -25,12 +25,7 @@ namespace ST10434082_PROG6221_Part3
         {
             //Declared width for welcome screen
             const int boxWidth = 70;
-            ////Colors set for welcome screen
-            //Console.BackgroundColor = ConsoleColor.DarkBlue;
-            //Console.ForegroundColor = ConsoleColor.Yellow;
-
-            ////Prints top border based on boxWidth
-            //Console.WriteLine("╔" + new string('═', boxWidth - 2) + "╗");
+            
 
             string message = $"WELCOME {name.ToUpper()}";
             int padding = boxWidth - 2 - message.Length;

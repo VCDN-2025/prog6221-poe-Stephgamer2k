@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\quizgame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:quizgame.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\chatbot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:chatbot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\logwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:logwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\chatbot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:chatbot.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\logitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:logitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\logwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:logwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|c:\\users\\lab_services_student\\desktop\\c# projects\\st10434082_prog6221_part3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3FEE9007-A05F-40D7-8A5D-07D0041E7135}|ST10434082_PROG6221_Part3.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,65 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QuizGame.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\QuizGame.xaml.cs",
-              "RelativeDocumentMoniker": "QuizGame.xaml.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\QuizGame.xaml.cs",
-              "RelativeToolTip": "QuizGame.xaml.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwFsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T10:33:10.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T09:35:19.953Z",
+              "WhenOpened": "2025-06-27T11:22:04.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Chatbot.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\Chatbot.xaml.cs",
               "RelativeDocumentMoniker": "Chatbot.xaml.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\Chatbot.xaml.cs",
               "RelativeToolTip": "Chatbot.xaml.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAYwMwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAwMwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T09:01:35.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LogWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\LogWindow.xaml.cs",
               "RelativeDocumentMoniker": "LogWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\LogWindow.xaml.cs",
               "RelativeToolTip": "LogWindow.xaml.cs",
-              "ViewState": "AgIAABsAAAAAmpmZmZkMwC0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAABAMzMzM5MwwC0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T08:44:09.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LogWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\LogWindow.xaml",
-              "RelativeDocumentMoniker": "LogWindow.xaml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\LogWindow.xaml",
-              "RelativeToolTip": "LogWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-27T08:44:00.883Z",
               "EditorCaption": ""
             },
             {
@@ -116,17 +79,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T08:15:19.198Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\C# Projects\\ST10434082_PROG6221_Part3\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-25T14:14:14.598Z"
             }
           ]
         }
