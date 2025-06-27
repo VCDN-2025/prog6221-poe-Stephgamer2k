@@ -2,8 +2,6 @@
 
 This project is a desktop chatbot application built using C# and Windows Presentation Foundation (WPF). It simulates intelligent user interaction in the context of cybersecurity education and task management. The chatbot interprets flexible, natural language commands to add tasks, set reminders, and perform actions using basic NLP simulation techniques such as keyword recognition and string manipulation.
 
-The goal of this project is to help users engage with cybersecurity-related activities in a conversational way while managing personal tasks and reminders through a graphical user interface. All interactions are logged and viewable in a separate activity log window, providing users with a clear summary of recent actions. The chatbot supports structured conversation flow, state management, sound greetings, dynamic user prompts, and context-aware responses.
-
 This build serves both as a learning tool and a demonstration of integrating core software development skills: GUI design, state handling, event-driven logic, regex-based input parsing, and persistent user interaction logging. It was developed as part of the INSY6211 curriculum to demonstrate practical implementation of theoretical concepts from systems analysis and human-computer interaction.
 
 ---
@@ -68,7 +66,8 @@ This build serves both as a learning tool and a demonstration of integrating cor
 6. Once you have added tasks through the chatbot system you can view them through the view task button on the main window
 7. As you use the build you can view the history of activites that happened through the log window button on the main window.
 
-
 ---
+## 📸 CI pipeline Screenshot
 
+![CI pipelines screenshot](https://github.com/user-attachments/assets/8490ec27-c4cd-490d-81db-d008161442a8)
 
