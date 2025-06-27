@@ -29,7 +29,8 @@ namespace ST10434082_PROG6221_Part3
 
         private void btn_ViewTask_Click(object sender, RoutedEventArgs e)
         {
-
+            TaskWindow task = new TaskWindow();
+            task.ShowDialog();
         }
 
         private void btn_QuizGame_Click(object sender, RoutedEventArgs e)

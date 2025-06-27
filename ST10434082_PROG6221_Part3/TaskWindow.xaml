@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ST10434082_PROG6221_Part3"
         mc:Ignorable="d"
-        Title="TaskWindow" Height="450" Width="800">
+        Title="TaskWindow" Height="600" Width="900" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="/chatb.jpg"/>
+        </Grid.Background>
+        <ListView x:Name="TaskListView"  Margin="28,19,28,88" RenderTransformOrigin="0.53,0.479">
+            <ListView.Resources>
+                <Style TargetType="{x:Type ListViewItem}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsCompleted}" Value="True">
+                            <Setter Property="Background" Value="LightGreen"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsCompleted}" Value="False">
+                            <Setter Property="Background" Value="#FFDDDD"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.Resources>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="0 0 0 10" Background="#EEE" >
+                        <TextBlock Text="{Binding Title}" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Margin="0,2,0,0"/>
+                        <TextBlock Text="{Binding Reminder, StringFormat='Reminder: {0:G}'}" Foreground="DarkRed" Margin="0,2,0,0"/>
+                        <CheckBox Content="Completed" IsChecked="{Binding IsCompleted}" Margin="0,5,0,0"/>
+
+
+
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="DeleteTaskButton" Content="Delete Task"  Margin="388,501,388,0" VerticalAlignment="Top" Height="57" Width="124" FontSize="19" Background="#FFFA1414" FontFamily="Impact" Click="DeleteTaskButton_Click" Tag="{Binding}"/>
     </Grid>
 </Window>

@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Media;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -96,15 +97,9 @@ namespace ST10434082_PROG6221_Part3
 
             string response = ChatbotResponse(input, userName);
 
-            // Add response line-by-line
-            foreach (var line in response.Split('\n'))
-            {
-                if (!string.IsNullOrWhiteSpace(line))
-                    Outputs.Add(new Output { Message = line.TrimEnd() });
-            }
-
-            // Optional: Auto-scroll to latest message
+            HandleUserInput(input);
             ChatbotListView.ScrollIntoView(ChatbotListView.Items[ChatbotListView.Items.Count - 1]);
+
         }
 
         private string ChatbotResponse(string input, string name)
@@ -121,5 +116,129 @@ namespace ST10434082_PROG6221_Part3
             }
         }
 
+        //Gets the curernt state of the Chatbot
+        private enum ChatBotState
+        {
+            Idle,
+            AwaitingDescription,
+            AwaitingReminder
+        }
+
+        private ChatBotState currentState = ChatBotState.Idle;
+        private string newTitle = "";
+        private string newDescription = "";
+
+        private List<string> actionLog = new List<string>();
+        private void HandleUserInput(string input)
+        {
+            
+                input = input.ToLower().Trim();
+            switch (currentState)
+            {
+                case ChatBotState.Idle:
+
+                    // --- Check for Action Summary ---
+                    if (Regex.IsMatch(input, @"(what.*done|show.*(tasks|reminders)|list.*(all|actions))"))
+                    {
+                        if (actionLog.Count == 0)
+                        {
+                            Outputs.Add(new Output { Message = "No actions have been recorded yet." });
+                        }
+                        else
+                        {
+                            string logSummary = "Here’s a summary of recent actions:\n" +
+                                string.Join("\n", actionLog.Select((act, i) => $"{i + 1}. {act}"));
+                            Outputs.Add(new Output { Message = logSummary });
+                        }
+                        break;
+                    }
+
+                    // --- Check for Task/Reminder Intent ---
+                    if (Regex.IsMatch(input, @"(add|create|remind|set).*(task|reminder|note|todo|something)", RegexOptions.IgnoreCase))
+                    {
+                        var titleMatch = Regex.Match(input, @"(?:to|for)\s+(.*)"); // e.g., "add a task to review logs"
+                        newTitle = titleMatch.Success ? titleMatch.Groups[1].Value : "Untitled Task";
+
+                        currentState = ChatBotState.AwaitingDescription;
+                        Outputs.Add(new Output { Message = "Please enter a description for the task." });
+                    }
+                    
+                    else
+                    {
+                        string response = ChatbotResponse(input, userName);
+                        Outputs.Add(new Output { Message = response });
+                    }
+                    break;
+
+                case ChatBotState.AwaitingDescription:
+                    newDescription = input;
+                    currentState = ChatBotState.AwaitingReminder;
+                    Outputs.Add(new Output { Message = "Would you like to set a reminder? (e.g. 'tomorrow', 'in 2 days', 'next week', or a date like '2025-07-01') or type 'no'" });
+                    break;
+
+                case ChatBotState.AwaitingReminder:
+                    DateTime? reminder = ParseNaturalDate(input);
+
+                    TaskItem newTask = new TaskItem
+                    {
+                        Title = newTitle,
+                        Description = newDescription,
+                        Reminder = reminder,
+                        IsCompleted = false
+                    };
+
+                    TaskManager.AllTasks.Add(newTask);
+
+                    // Log Action
+                    string action = $"Task added: '{newTitle}'" + (reminder.HasValue ? $" with reminder on {reminder.Value:g}" : " (no reminder set)");
+                    actionLog.Add(action);
+
+                    Outputs.Add(new Output
+                    {
+                        Message = action
+                    });
+
+                    // Reset
+                    currentState = ChatBotState.Idle;
+                    newTitle = "";
+                    newDescription = "";
+                    break;
+            }
+
+        }//End of HandleUserInput method
+
+
+        private DateTime? ParseNaturalDate(string input)
+        {
+            input = input.ToLower().Trim();
+
+            if (input == "no") return null;
+
+            if (input.Contains("tomorrow")) return DateTime.Now.AddDays(1);
+            if (input.Contains("next week")) return DateTime.Now.AddDays(7);
+            if (input.Contains("in a week")) return DateTime.Now.AddDays(7);
+
+            var inMatch = Regex.Match(input, @"in (\d+) (day|days|week|weeks|hour|hours)");
+            if (inMatch.Success)
+            {
+                int value = int.Parse(inMatch.Groups[1].Value);
+                string unit = inMatch.Groups[2].Value;
+                if (unit.Contains("day")) return DateTime.Now.AddDays(value);
+                if (unit.Contains("week")) return DateTime.Now.AddDays(value * 7);
+                if (unit.Contains("hour")) return DateTime.Now.AddHours(value);
+            }
+
+            if (DateTime.TryParse(input, out DateTime parsedDate)) return parsedDate;
+
+            return null;
+        }
+
+
     }
+
+    public static class TaskManager
+    {
+        public static ObservableCollection<TaskItem> AllTasks { get; } = new ObservableCollection<TaskItem>();
+    }
+
 }

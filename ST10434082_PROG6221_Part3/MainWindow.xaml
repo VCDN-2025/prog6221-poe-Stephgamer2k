@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="394" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button x:Name="btn_Chatbot" Content="ChatBot System" HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Height="63" Width="224" FontWeight="Bold" FontSize="24" Click="btn_Chatbot_Click"/>
-        <Button x:Name="btn_ViewTask" Content="View Tasks" HorizontalAlignment="Center" Margin="0,134,0,0" VerticalAlignment="Top" Height="63" Width="224" FontWeight="Bold" FontSize="24" Click="btn_ViewTask_Click"/>
-        <Button x:Name="btn_LogWindow" Content="Log Window" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Height="63" Width="224" RenderTransformOrigin="0.452,4.317" FontWeight="Bold" FontSize="24" Click="btn_LogWindow_Click"/>
-        <Button x:Name="btn_QuizGame" Content="Quiz Game" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="63" Width="224" FontSize="24" FontWeight="Bold" Click="btn_QuizGame_Click"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="/chatb.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btn_Chatbot" Content="ChatBot System" HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Height="63" Width="224" FontSize="24" Click="btn_Chatbot_Click" Background="#FF8BE3E6" FontFamily="Impact"/>
+        <Button x:Name="btn_ViewTask" Content="View Tasks" HorizontalAlignment="Center" Margin="0,134,0,0" VerticalAlignment="Top" Height="63" Width="224" FontSize="24" Click="btn_ViewTask_Click" Background="#FF53DA2B" FontFamily="Impact"/>
+        <Button x:Name="btn_LogWindow" Content="Log Window" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Height="63" Width="224" RenderTransformOrigin="0.452,4.317" FontSize="24" Click="btn_LogWindow_Click" Background="#FFD94C4C" FontFamily="Impact"/>
+        <Button x:Name="btn_QuizGame" Content="Quiz Game" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="63" Width="224" FontSize="24" Click="btn_QuizGame_Click" Background="#FF9248D7" FontFamily="Impact"/>
 
     </Grid>
 </Window>

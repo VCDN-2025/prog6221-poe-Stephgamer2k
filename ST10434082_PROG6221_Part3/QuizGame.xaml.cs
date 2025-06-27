@@ -76,7 +76,7 @@ namespace ST10434082_PROG6221_Part3
             ShowNextQuestion();
         }
 
-        private void ShowNextQuestion()
+        public void ShowNextQuestion()
         {
             if (questionEnumerator.MoveNext())
             {
@@ -93,6 +93,10 @@ namespace ST10434082_PROG6221_Part3
         }
 
         private void SubmitAnswer_Click(object sender, RoutedEventArgs e)
+        {
+            quizQuestions();
+        }
+        public void quizQuestions()
         {
             string userAnswer = answerInput.Text.Trim().ToLower();
             string correctAnswer = questions[currentQuestion].ToLower();

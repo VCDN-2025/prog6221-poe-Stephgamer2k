@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +20,24 @@ namespace ST10434082_PROG6221_Part3
     /// </summary>
     public partial class TaskWindow : Window
     {
+        
         public TaskWindow()
         {
             InitializeComponent();
+            
+            TaskListView.ItemsSource = TaskManager.AllTasks;
         }
+
+
+        private void DeleteTaskButton_Click(object sender, RoutedEventArgs e)
+        {
+            //gets the task linked to the clicked button
+            var task = TaskListView.SelectedItem as TaskItem;
+            if (task != null)
+                TaskManager.AllTasks.Remove(task);
+
+        }
+
+        
     }
 }

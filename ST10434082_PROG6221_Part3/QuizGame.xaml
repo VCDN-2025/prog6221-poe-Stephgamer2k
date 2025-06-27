@@ -7,23 +7,26 @@
         mc:Ignorable="d"
         Title="QuizGame" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
     <Grid Margin="10">
+        <Grid.Background>
+            <ImageBrush ImageSource="/chatb.jpg"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            
+
             <RowDefinition Height="Auto"/>
-            
+
             <RowDefinition Height="Auto"/>
-            
+
             <RowDefinition Height="*"/>
-            
+
         </Grid.RowDefinitions>
 
         <TextBlock x:Name="questionText" TextWrapping="Wrap" FontSize="16" Grid.Row="0" Margin="0,10,0,10"/>
 
-        <TextBox x:Name="answerInput" Height="30" Grid.Row="1" Margin="0,0,0,10" FontSize="14"/>
+        <TextBox x:Name="answerInput" Height="30" Margin="36,41,36,10" FontSize="14" Grid.RowSpan="2"/>
 
-        <Button x:Name="SubmitButton" Content="Submit Answer" Click="SubmitAnswer_Click" Width="150" Height="35" Grid.Row="2" Margin="0,0,0,10" HorizontalAlignment="Center" FontWeight="Bold"/>
+        <Button x:Name="SubmitButton" Content="Submit Answer" Click="SubmitAnswer_Click" Width="150" Height="35" Grid.Row="2" Margin="0,10,0,0" HorizontalAlignment="Center" Background="#FF4EF327" FontFamily="Arial" FontWeight="Bold"/>
 
-        <ListBox x:Name="quizHistory" Grid.Row="3" Margin="0" FontSize="14"/>
+        <ListBox x:Name="quizHistory" Grid.Row="3" Margin="36,30,36,0" FontSize="14"/>
     </Grid>
 </Window>
