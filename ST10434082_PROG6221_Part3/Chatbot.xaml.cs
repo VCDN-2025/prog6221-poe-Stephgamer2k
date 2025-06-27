@@ -39,6 +39,8 @@ namespace ST10434082_PROG6221_Part3
 
         private void Chatbot_Loaded(object sender, RoutedEventArgs e)
         {
+            ActivityLogManager.AddLog("Chatbot session started.");
+
             MessageBox.Show("Chatbot Loaded");
             userName = GetUserName();
 
@@ -146,9 +148,11 @@ namespace ST10434082_PROG6221_Part3
                         }
                         else
                         {
-                            string logSummary = "Here’s a summary of recent actions:\n" +
-                                string.Join("\n", actionLog.Select((act, i) => $"{i + 1}. {act}"));
-                            Outputs.Add(new Output { Message = logSummary });
+                            Outputs.Add(new Output { Message = "Here’s a summary of recent actions:" });
+
+                            foreach (var entry in ActivityLogManager.Log.Take(5))
+                                Outputs.Add(new Output { Message = entry.Display });
+                            ActivityLogManager.AddLog($"{userName} viewed the activity log.");
                         }
                         break;
                     }
@@ -161,6 +165,7 @@ namespace ST10434082_PROG6221_Part3
 
                         currentState = ChatBotState.AwaitingDescription;
                         Outputs.Add(new Output { Message = "Please enter a description for the task." });
+                        ActivityLogManager.AddLog("NLP: Detected intent to create task titled '" + newTitle + "'.");
                     }
                     
                     else
@@ -198,6 +203,7 @@ namespace ST10434082_PROG6221_Part3
                         Message = action
                     });
 
+                    ActivityLogManager.AddLog(action);
                     // Reset
                     currentState = ChatBotState.Idle;
                     newTitle = "";
@@ -240,5 +246,7 @@ namespace ST10434082_PROG6221_Part3
     {
         public static ObservableCollection<TaskItem> AllTasks { get; } = new ObservableCollection<TaskItem>();
     }
+
+    
 
 }

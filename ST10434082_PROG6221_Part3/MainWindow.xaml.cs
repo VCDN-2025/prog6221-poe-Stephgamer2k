@@ -42,6 +42,8 @@ namespace ST10434082_PROG6221_Part3
 
         private void btn_LogWindow_Click(object sender, RoutedEventArgs e)
         {
+            LogWindow log = new LogWindow();
+            log.ShowDialog();
 
         }
     }

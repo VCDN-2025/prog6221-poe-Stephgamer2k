@@ -69,7 +69,7 @@ namespace ST10434082_PROG6221_Part3 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ST10434082_PROG6221_Part3;V1.0.0.0;component/taskwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ST10434082_PROG6221_Part3;component/taskwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TaskWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

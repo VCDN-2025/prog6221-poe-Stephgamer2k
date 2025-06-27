@@ -87,7 +87,9 @@ namespace ST10434082_PROG6221_Part3
             }
             else
             {
-                questionText.Text = $"Quiz finished! Your score: {score}/{questions.Count}";
+                string log;
+               log = questionText.Text = $"Quiz finished! Your score: {score}/{questions.Count}";
+                ActivityLogManager.AddLog(log);
                 answerInput.IsEnabled = false;
             }
         }

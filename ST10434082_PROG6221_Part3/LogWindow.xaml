@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ST10434082_PROG6221_Part3"
         mc:Ignorable="d"
-        Title="LogWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="LogWindow" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="/chatb.jpg"/>
+    </Window.Background>
+    <Grid Background="#F0F0F0" Margin="36,0,36,80">
+        <ListView x:Name="LogListView" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Activity" DisplayMemberBinding="{Binding Display}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>
